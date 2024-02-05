@@ -6,7 +6,7 @@ struct ContentView: View {
             LinearGradient(gradient: Gradient(colors: [Color(hex: "#8EDCE6"), .white]), startPoint: .top, endPoint: .bottom)
                 .ignoresSafeArea()
             
-            VStack(spacing: 20.0) { // Verwenden Sie VStack für die Gesamtanordnung
+            VStack(spacing: 20.0) {
                 ZStack {
                     VStack(spacing: 20.0) {
                         Image("appiconlogo")
