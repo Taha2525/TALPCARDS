@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F5E774C2B7282D700666E6B /* Category Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5E774B2B7282D700666E6B /* Category Manager.swift */; };
 		23AAE4AB2B711D5700174A48 /* TALPCARDSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AAE4AA2B711D5700174A48 /* TALPCARDSApp.swift */; };
 		23AAE4AD2B711D5700174A48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AAE4AC2B711D5700174A48 /* ContentView.swift */; };
 		23AAE4AF2B711D5800174A48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23AAE4AE2B711D5800174A48 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F5E774B2B7282D700666E6B /* Category Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Category Manager.swift"; sourceTree = "<group>"; };
 		23AAE4A72B711D5700174A48 /* TALPCARDS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TALPCARDS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23AAE4AA2B711D5700174A48 /* TALPCARDSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TALPCARDSApp.swift; sourceTree = "<group>"; };
 		23AAE4AC2B711D5700174A48 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			children = (
 				23AAE4AA2B711D5700174A48 /* TALPCARDSApp.swift */,
 				23AAE4AC2B711D5700174A48 /* ContentView.swift */,
+				0F5E774B2B7282D700666E6B /* Category Manager.swift */,
 				23AAE4AE2B711D5800174A48 /* Assets.xcassets */,
 				23AAE4B02B711D5800174A48 /* TALPCARDS.entitlements */,
 				23AAE4B12B711D5800174A48 /* Preview Content */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23AAE4AD2B711D5700174A48 /* ContentView.swift in Sources */,
+				0F5E774C2B7282D700666E6B /* Category Manager.swift in Sources */,
 				23AAE4AB2B711D5700174A48 /* TALPCARDSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

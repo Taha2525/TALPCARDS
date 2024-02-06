@@ -1,3 +1,10 @@
+//
+//  ContentView.swift
+//  TALPCARDS
+//
+//  Created by Taha Ilgar on 06.02.24.
+//
+
 import SwiftUI
 
 struct ContentView: View {
@@ -6,41 +13,28 @@ struct ContentView: View {
             LinearGradient(gradient: Gradient(colors: [Color(hex: "#8EDCE6"), .white]), startPoint: .top, endPoint: .bottom)
                 .ignoresSafeArea()
             
-            VStack(spacing: 20.0) {
+            VStack(spacing: 40.0) {
                 ZStack {
                     VStack(spacing: 20.0) {
                         Image("appiconlogo")
                             .resizable()
                             .cornerRadius(3.0)
                             .aspectRatio(contentMode: .fit)
-                            .padding(.all)
                         
                         HStack{
-                            
                             Text("TALPCARDS")
                                 .font(.title)
                                 .fontWeight(.semibold)
-                                .foregroundColor(.black)
-                            
-                            Image(systemName: "lightbulb.max")
-                                .foregroundColor(.black)
+                                .foregroundColor(Color(hex: "#011f43"))
+                                
                             
                         }
                         
                         Text("DO LEARNING EASIER!")
                             .font(.title2)
                             .fontWeight(.semibold)
-                            .foregroundColor(.black)
+                            .foregroundColor(Color(hex: "#011f43"))
                         
-                        HStack(spacing: 20.0){
-                            
-                            Image(systemName:"star.fill")
-                            Image(systemName:"star.fill")
-                            Image(systemName:"star.fill")
-                            Image(systemName:"star.fill")
-                            Image(systemName: "star.leadinghalf.filled")
-                        }
-                        .foregroundColor(.orange)
                     }
                 }
                 .padding()
@@ -49,9 +43,10 @@ struct ContentView: View {
                 .shadow(radius: 15)
                 .padding()
 
-                // Button hier hinzufügen
+                
                 Button("Start learning") {
-                    // Aktion für den Button
+                    
+                    
                 }
                 .padding()
                 .background(Color(hex: "#8EDCE6"))
@@ -66,7 +61,7 @@ struct ContentView: View {
     }
 }
 
-// Erweiterung, um Color mit HEX-Werten zu initialisieren
+
 extension Color {
     init(hex: String) {
         let hex = hex.trimmingCharacters(in: CharacterSet.alphanumerics.inverted)
